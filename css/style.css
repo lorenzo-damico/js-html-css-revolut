@@ -5,5 +5,72 @@
 }
 
 body {
-  
+  padding-top: 20px;
+  font-size: 15px;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  height: 80px;
+}
+
+/* MIX */
+a {
+  text-decoration: none;
+  color: grey;
+}
+.text_uppercase {
+  text-transform: uppercase;
+}
+.list_inline {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+}
+.list_inline > li {
+  padding: 0 15px;
+  position: relative;
+}
+.fa-angle-down {
+  font-size: 10px;
+  vertical-align: middle;
+}
+li:hover > a {
+  color: black;
+}
+/* HEADER */
+.logo {
+  height: 45px;
+}
+.nav_right, .nav_left {
+  height: 100%;
+  width: 100%;
+}
+.nav_left {
+  width: 30%;
+}
+.nav_right {
+  width: 70%;
+}
+.nav_right ul {
+  justify-content: flex-end;
+}
+
+/* MENU TENDINA */
+.menu_tendina {
+  position: absolute;
+  transform: translateX(-30%);
+  display: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.menu_tendina ul {
+  list-style: none;
+}
+.menu_tendina ul li {
+  padding: 10px 20px;
+}
+.menu_tendina.azienda {
+  width: 100px;
 }
