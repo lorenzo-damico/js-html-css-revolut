@@ -15,6 +15,17 @@ body {
   height: 80px;
 }
 
+/* BOTTONE */
+.btn {
+  color: white;
+  background-color: #EB008D;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.btn:hover {
+  background-color: rgba(235, 0, 141, 0.7);
+  color: white;
+}
 /* MIX */
 a {
   text-decoration: none;
@@ -37,7 +48,7 @@ a {
   font-size: 10px;
   vertical-align: middle;
 }
-li:hover > a {
+a:hover {
   color: black;
 }
 /* HEADER */
@@ -57,13 +68,19 @@ li:hover > a {
 .nav_right ul {
   justify-content: flex-end;
 }
-
+.apice {
+  color: #EB008D;
+  font-size: 10px;
+  font-weight: bold;
+  vertical-align: super;
+}
 /* MENU TENDINA */
 .menu_tendina {
   position: absolute;
   transform: translateX(-30%);
   display: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  top:20px;
 }
 .menu_tendina ul {
   list-style: none;
@@ -72,5 +89,5 @@ li:hover > a {
   padding: 10px 20px;
 }
 .menu_tendina.azienda {
-  width: 100px;
+  width: 150px;
 }
